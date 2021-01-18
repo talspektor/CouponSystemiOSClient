@@ -13,6 +13,18 @@
 		43541C2D25B0AC5500D4B454 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43541C2C25B0AC5500D4B454 /* Preview Assets.xcassets */; };
 		43541C2F25B0AC5500D4B454 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C2E25B0AC5500D4B454 /* Persistence.swift */; };
 		43541C3225B0AC5500D4B454 /* CouponSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43541C3025B0AC5500D4B454 /* CouponSystem.xcdatamodeld */; };
+		43541C3E25B0AED800D4B454 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C3D25B0AED800D4B454 /* Coupon.swift */; };
+		43541C4125B0B05600D4B454 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C4025B0B05600D4B454 /* Company.swift */; };
+		43541C4425B0B27500D4B454 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C4325B0B27500D4B454 /* Customer.swift */; };
+		43541C4725B0B2BF00D4B454 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C4625B0B2BF00D4B454 /* Category.swift */; };
+		43541C4B25B0B68300D4B454 /* CouponItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C4A25B0B68300D4B454 /* CouponItemView.swift */; };
+		43541C9A25B1CC1000D4B454 /* CouponDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541C9925B1CC1000D4B454 /* CouponDetail.swift */; };
+		43541CA225B1DDAF00D4B454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CA125B1DDAF00D4B454 /* AppDelegate.swift */; };
+		43541CA625B31A1700D4B454 /* OrderCouopon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CA525B31A1700D4B454 /* OrderCouopon.swift */; };
+		43541CB825B3213C00D4B454 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CB725B3213C00D4B454 /* AppView.swift */; };
+		43541CBC25B321B300D4B454 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CBB25B321B300D4B454 /* OrderView.swift */; };
+		43541CC225B35B3C00D4B454 /* MyCoupons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CC125B35B3C00D4B454 /* MyCoupons.swift */; };
+		43541CC925B35F9F00D4B454 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541CC825B35F9F00D4B454 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		43541C2E25B0AC5500D4B454 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		43541C3125B0AC5500D4B454 /* CouponSystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CouponSystem.xcdatamodel; sourceTree = "<group>"; };
 		43541C3325B0AC5500D4B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43541C3D25B0AED800D4B454 /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		43541C4025B0B05600D4B454 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		43541C4325B0B27500D4B454 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		43541C4625B0B2BF00D4B454 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		43541C4A25B0B68300D4B454 /* CouponItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponItemView.swift; sourceTree = "<group>"; };
+		43541C9925B1CC1000D4B454 /* CouponDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetail.swift; sourceTree = "<group>"; };
+		43541CA125B1DDAF00D4B454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43541CA525B31A1700D4B454 /* OrderCouopon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCouopon.swift; sourceTree = "<group>"; };
+		43541CB725B3213C00D4B454 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		43541CBB25B321B300D4B454 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		43541CC125B35B3C00D4B454 /* MyCoupons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoupons.swift; sourceTree = "<group>"; };
+		43541CC825B35F9F00D4B454 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,15 @@
 			isa = PBXGroup;
 			children = (
 				43541C2525B0AC5300D4B454 /* CouponSystemApp.swift */,
+				43541CA525B31A1700D4B454 /* OrderCouopon.swift */,
+				43541CB725B3213C00D4B454 /* AppView.swift */,
 				43541C2725B0AC5300D4B454 /* ContentView.swift */,
+				43541C3C25B0AEA300D4B454 /* View */,
+				43541C3B25B0AE9900D4B454 /* DataManager */,
+				43541C3A25B0AE8A00D4B454 /* Models */,
 				43541C2925B0AC5500D4B454 /* Assets.xcassets */,
 				43541C2E25B0AC5500D4B454 /* Persistence.swift */,
+				43541CA125B1DDAF00D4B454 /* AppDelegate.swift */,
 				43541C3325B0AC5500D4B454 /* Info.plist */,
 				43541C3025B0AC5500D4B454 /* CouponSystem.xcdatamodeld */,
 				43541C2B25B0AC5500D4B454 /* Preview Content */,
@@ -73,6 +103,36 @@
 				43541C2C25B0AC5500D4B454 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43541C3A25B0AE8A00D4B454 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43541C3D25B0AED800D4B454 /* Coupon.swift */,
+				43541C4025B0B05600D4B454 /* Company.swift */,
+				43541C4325B0B27500D4B454 /* Customer.swift */,
+				43541C4625B0B2BF00D4B454 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43541C3B25B0AE9900D4B454 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		43541C3C25B0AEA300D4B454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43541C4A25B0B68300D4B454 /* CouponItemView.swift */,
+				43541C9925B1CC1000D4B454 /* CouponDetail.swift */,
+				43541CBB25B321B300D4B454 /* OrderView.swift */,
+				43541CC125B35B3C00D4B454 /* MyCoupons.swift */,
+				43541CC825B35F9F00D4B454 /* CheckoutView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +204,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43541CC225B35B3C00D4B454 /* MyCoupons.swift in Sources */,
+				43541CB825B3213C00D4B454 /* AppView.swift in Sources */,
+				43541CA625B31A1700D4B454 /* OrderCouopon.swift in Sources */,
+				43541CA225B1DDAF00D4B454 /* AppDelegate.swift in Sources */,
+				43541C3E25B0AED800D4B454 /* Coupon.swift in Sources */,
+				43541C4425B0B27500D4B454 /* Customer.swift in Sources */,
 				43541C2F25B0AC5500D4B454 /* Persistence.swift in Sources */,
+				43541C4B25B0B68300D4B454 /* CouponItemView.swift in Sources */,
 				43541C2825B0AC5300D4B454 /* ContentView.swift in Sources */,
 				43541C3225B0AC5500D4B454 /* CouponSystem.xcdatamodeld in Sources */,
+				43541C4725B0B2BF00D4B454 /* Category.swift in Sources */,
 				43541C2625B0AC5300D4B454 /* CouponSystemApp.swift in Sources */,
+				43541CBC25B321B300D4B454 /* OrderView.swift in Sources */,
+				43541C9A25B1CC1000D4B454 /* CouponDetail.swift in Sources */,
+				43541CC925B35F9F00D4B454 /* CheckoutView.swift in Sources */,
+				43541C4125B0B05600D4B454 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

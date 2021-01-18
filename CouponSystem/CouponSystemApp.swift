@@ -9,11 +9,14 @@ import SwiftUI
 
 @main
 struct CouponSystemApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     let persistenceController = PersistenceController.shared
+    let orederCoupon = OrderCoupon()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
+                .environmentObject(orederCoupon)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
